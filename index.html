@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Logo">
+      <nav>
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about" class="heroImg">
+      <div class="content">
+        <img src="images/mypicture.png" alt="Picture of Juwan Patterson">
+        <h1>Juwan Patterson</h1>
+        <p>I currently reside in Merrillville, Indiana,
+          I am a creative junior UX/UI designer that specializes in
+          User interface design and prototyping.<br>My creative thinking will
+          not only elevate me as a designer but as a valuable colleague as well.</p>
+        <button>Download Resume</button>
+      </div>
+    </section>
+    <!-- My UX Skills Section -->
+    <section id="skills">
+      <!-- Section Header -->
+      <h1>My UX Skills</h1>
+      
+      <!-- Skills Container -->
+      <div class="skills-container">
+        
+        <!-- Flex Child 1 -->
+        <div class="skill">
+          <img src="images/ux-store-jJT2r2n7lYA-unsplash.jpg" alt="Wireframing">
+          <h1>Wireframing</h1>
+          <p>I create detailed wireframes to outline the structure and flow of user interfaces, ensuring a smooth user experience.</p>
+        </div>
+        
+        <!-- Flex Child 2 -->
+        <div class="skill">
+          <img src="images/amper-FvpVY7TpwNY-unsplash.jpg" alt="Prototyping">
+          <h1>Prototyping</h1>
+          <p>I develop interactive prototypes to visualize user journeys and gather feedback, which helps in refining the design.</p>
+        </div>
+        
+        <!-- Flex Child 3 -->
+        <div class="skill">
+          <img src="images/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg" alt="User Research">
+          <h1>User Research</h1>
+          <p>I conduct user research to understand user needs and behaviors, informing design decisions with real user insights.</p>
+        </div>
+        
+      </div>
+    </section>
+     <!-- My Work Section -->
+     <section id="work">
+      <!-- Section Header -->
+      <h1>My Work</h1>
+      
+      <!-- Work Container -->
+      <div class="work-container">
+        
+        <!-- Work Item 1 -->
+        <div class="work-item">
+          <div class="work-image">
+            <img src="images/1_Presentation_Boon Case Study_Group 3.jpg" alt="Project 1">
+          </div>
+          <div class="work-description">
+            <h4>Boon Slow Your Scroll</h4>
+            <p>This project showcases my skills in creating user-friendly interfaces that are both visually appealing and functional.</p>
+            <button>View Project</button>
+          </div>
+        </div>
+        
+        <!-- Work Item 2 -->
+        <div class="work-item">
+          <div class="work-image">
+            <img src="images/THRU Project Presentation.png" alt="Project 2">
+          </div>
+          <div class="work-description">
+            <h4>Thru Project</h4>
+            <p>This project highlights my ability to conduct thorough user research and implement findings into the design process.</p>
+            <button>View Project</button>
+          </div>
+        </div>
+        
+        <!-- Work Item 3 -->
+        <div class="work-item">
+          <div class="work-image">
+            <img src="images/work3.png" alt="Project 3">
+          </div>
+          <div class="work-description">
+            <h4>TBD</h4>
+            <p>TBD</p>
+            <button>View Project</button>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <p>&copy; <span id="currentYear"></span> Juwan Patterson. All rights reserved.</p>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
